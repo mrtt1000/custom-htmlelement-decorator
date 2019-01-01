@@ -1,0 +1,21 @@
+{
+  "name": "custom-htmlelement-decorator",
+  "version": "1.0.0",
+  "description": "Simple program for creating custom elements using annotations",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.2.2",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "html-webpack-plugin": "^4.0.0-beta.4",
+    "ts-loader": "^5.3.1"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.1"
+  }
+}
